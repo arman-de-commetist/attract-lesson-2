@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #6d6d6d;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #3f8a87;
+    height: 42px;
+}
+
+.logo {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    line-height: 42px;
+    margin-left: 90px;
+}
+
+.logo span {
+    color: #d8d23b;
+}
+
+.banner {
+    height: 490px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/image.png) no-repeat center;
+    background-size: cover;
+}
+
+.about {
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+
+.about h1 {
+    font-size: 36px;
+    color: #3f8a87;
+    margin-bottom: 30px;
+}
+
+.text {
+    width: 620px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.columns {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+}
+
+.col img {
+    width: 26px;
+    height: 26px;
+    margin-bottom: 18px;
+}
+
+.col h3 {
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.col p {
+    width: 140px;
+    margin: 0 auto;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.footer {
+    background: black;
+    height: 70px;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+    font-size: 9px;
+    padding-top: 28px;
+}
